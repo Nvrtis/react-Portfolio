@@ -1,14 +1,17 @@
 .about {
     border-radius: 25px;
     text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 10px;
     background: white;
     box-shadow: 2px 2px 4px #000000;
     margin: 20px 20px 80px 20px;
 }
 
 #profilePic {
+    max-height: 250px;
+    max-width: 250px;
+    min-height: 150px;
+    min-width: 150px;
     float: left;
     width: 30%;
     height: auto;

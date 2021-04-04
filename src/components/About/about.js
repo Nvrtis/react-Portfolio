@@ -7,7 +7,7 @@ const About = ()=> (
     <div>
     <h2 className="text-center">About me</h2>
 <div className="about">
-<img src={img} alt="profile pic" class="img-fluid" id="profilePic"/>
+<img src={img} alt="profile pic" className="img-fluid" id="profilePic"/>
         <p>
           Salesforce Certified Administrator currently 
           attending Northwestern University, Full Stack 
