@@ -1,7 +1,8 @@
 import React from 'react'
+import "./style.css"
 
-const Col = ({ className, ...props }) => (
-  <div className={`col ${className}`} {...props} />
+const Col = ({...props }) => (
+  <div className="col" {...props} />
 )
 
 export default Col

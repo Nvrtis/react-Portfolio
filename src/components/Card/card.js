@@ -1,11 +1,12 @@
-import React, { useRef, useEffect } from 'react'
-// import images from "../images"
+import React from 'react'
+import "./style.css"
 
-const Card = ({ title, link, repoLink, desc,}) => {
+const Card = ({ title, link, repoLink, desc,img}) => {
 
   return (
     <div className="card">
       <div className="card-body">
+        <img src={img} className="img-fluid img"/>
         <h5 className="card-title">{title}</h5>
         <p className="card-text">{desc}</p>
         <a href={link} className="btn btn-primary">Link to live page</a>

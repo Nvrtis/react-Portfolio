@@ -1,14 +1,11 @@
 import React from 'react'
 import "./style.css"
 
-const Portfolio = (...props)=> (
-
-<div className="portfolio"{...props}>
-
-</div>
+const Container = props=> (
+<div className="portfolio"{...props}/>
     )
     
 
-export default Portfolio
+export default Container
 
 
