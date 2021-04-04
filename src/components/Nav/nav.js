@@ -4,7 +4,7 @@ import "./style.css"
 
 const Nav = () => (
 
-    <ul class="nav justify-content-center">
+    <ul className="nav justify-content-center">
           <li className="nav-item">
           <Link to="/" className="nav-link" aria-current="page" href="#">Home</Link>
           </li>
