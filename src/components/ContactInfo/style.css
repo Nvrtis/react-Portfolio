@@ -1,0 +1,27 @@
+
+
+#linkedIn, #facebook, #phone{
+    width: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#phone {
+    float: left;
+    padding-right: 5px;
+}
+
+#phone{
+    width: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.phoneNr {
+    font-size: 16px;
+    padding-top: 10px;
+    margin-bottom: 0;
+}
+.phoneNr2 {
+    font-size: 16px;
+}

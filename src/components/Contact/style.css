@@ -1,0 +1,13 @@
+.contact {
+    border-radius: 25px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: white;
+    box-shadow: 2px 2px 4px #000000;
+    margin: 20px 20px 80px 20px;
+}
+
+h2{
+    text-shadow: 2px 2px 5px white;
+}
