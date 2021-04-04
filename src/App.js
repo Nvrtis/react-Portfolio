@@ -12,22 +12,22 @@ import Footer from './components/Footer/footer'
 
 function App() {
   return (
-    // <Router>
-    //   <Header/>
-    //   <Nav />
-    //   <Switch>
-    //     <Route path="/Contact">
-    //       <ContactPage />
-    //     </Route>
-    //     <Route path="/portfolio">
-    //       <PortfolioPage />
-    //     </Route>
-    //     <Route path="/">
-    //       <HomePage />
-    //     </Route>
-    //   </Switch>
-    //   <Footer/>
-    // </Router>
+    <Router>
+      <Header/>
+      <Nav />
+      <Switch>
+        <Route path="/Contact">
+          <ContactPage />
+        </Route>
+        <Route path="/portfolio">
+          <PortfolioPage />
+        </Route>
+        <Route path="/">
+          <HomePage />
+        </Route>
+      </Switch>
+      <Footer/>
+    </Router>
   );
 }
 
