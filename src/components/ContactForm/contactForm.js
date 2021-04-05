@@ -1,4 +1,4 @@
-import React, { useState }from 'react'
+import React from 'react'
 import "./style.css"
 import emailjs, { init } from "emailjs-com"
 
@@ -7,7 +7,7 @@ const ContactForm = ()=> {
     const emailto = (e) => {
         e.preventDefault()
         // stored all info in environment variables
-        emailjs.init(process.env.REACT_APP_USER_key);
+        init(process.env.REACT_APP_USER_key);
         emailjs.sendForm(process.env.REACT_APP_SERVICE_ID,process.env.REACT_APP_TEMPLATE_ID, e.target, process.env.REACT_APP_USER_key)
         .then(function() {
             console.log('SUCCESS!');
