@@ -2,7 +2,7 @@ import React from 'react'
 import "./style.css"
 
 const ContactInfo = ()=> (
-      <div className="container">
+      <div className="containerContact">
         <div className="row">
           <div className="col-md-4">
             <a href="https://www.linkedin.com/in/nicholas-vincent-vrtis-00798a143/">

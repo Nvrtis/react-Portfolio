@@ -1,6 +1,8 @@
 import React from 'react'
 import "./style.css"
 
+
+// deconstruct props and makes the cards for projects
 const Card = ({ title, link, repoLink, desc,img}) => {
 
   return (

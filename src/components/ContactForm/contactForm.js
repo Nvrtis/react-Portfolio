@@ -3,9 +3,10 @@ import "./style.css"
 import emailjs, { init } from "emailjs-com"
 
 const ContactForm = ()=> {  
-
+// emails me by emailjs npm documentation found here: https://www.emailjs.com/docs/examples/reactjs/
     const emailto = (e) => {
         e.preventDefault()
+        // stored all info in environment variables
         emailjs.init(process.env.REACT_APP_USER_key);
         emailjs.sendForm(process.env.REACT_APP_SERVICE_ID,process.env.REACT_APP_TEMPLATE_ID, e.target, process.env.REACT_APP_USER_key)
         .then(function() {
@@ -13,13 +14,7 @@ const ContactForm = ()=> {
         }, function(error) {
             console.log('FAILED...', error);
         });
-        // location.href(`mailto:nvav91@gmail.com?cc=${e.target[1].value}&subject=from%website%${e.target[0].value.replace(/\s/g, '%')}body=${e.target[2].value}`);
-        
     }
-    console.log(process.env.REACT_APP_TOKEN)
-    console.log(process.env.REACT_APP_TEMPLATE_ID)
-    console.log(process.env.REACT_APP_SERVICE_ID)
-init()
 
  return (
  <form 

@@ -5,6 +5,7 @@ import Card from "../components/Card/card"
 import Container from "../components/Container/container"
 import Col from "../components/Col/col"
 
+// Run my seeds into state, before mapping them into cards
 const PortfolioPage = () => {
   const [projects, setProjects] = useState([])
   console.log(projects)

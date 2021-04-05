@@ -6,4 +6,10 @@
 
 .submitbtn{
     margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.form-name{
+    padding-top: 10px;
+    padding-bottom: 10px;
 }

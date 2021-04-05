@@ -4,7 +4,7 @@ import img from "./img.jpg"
 import Download from "../download/download"
 
 const About = ()=> (
-    <div>
+    <div className="containerabout">
     <h2 className="text-center">About me</h2>
 <div className="about">
 <img src={img} alt="profile pic" className="img-fluid" id="profilePic"/>
