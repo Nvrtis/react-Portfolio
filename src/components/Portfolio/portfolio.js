@@ -1,6 +1,5 @@
 import React from 'react'
 import "./style.css"
-import Card from "../Card/card"
 
 const Portfolio = (...props)=> (
     <div>

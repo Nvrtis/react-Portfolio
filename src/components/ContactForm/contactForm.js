@@ -1,6 +1,6 @@
 import React from 'react'
 import "./style.css"
-import emailjs, { init } from "emailjs-com"
+import emailjs from "emailjs-com"
 
 const ContactForm = ()=> {  
 // emails me by emailjs npm documentation found here: https://www.emailjs.com/docs/examples/reactjs/
