@@ -7,8 +7,8 @@ const ContactForm = ()=> {
     const emailto = (e) => {
         e.preventDefault()
         // stored all info in environment variables
-        init(process.env.REACT_APP_USER_key);
-        emailjs.sendForm(process.env.REACT_APP_SERVICE_ID,process.env.REACT_APP_TEMPLATE_ID, e.target, process.env.REACT_APP_USER_key)
+        // init(process.env.REACT_APP_USER_key);
+        emailjs.sendForm(process.env.REACT_APP_SERVICE_ID,process.env.REACT_APP_TEMPLATE_ID, e.target, process.env.REACT_APP_USER)
         .then(function() {
             console.log('SUCCESS!');
         }, function(error) {
