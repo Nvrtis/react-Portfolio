@@ -8,7 +8,6 @@ import Col from "../components/Col/col"
 // Run my seeds into state, before mapping them into cards
 const PortfolioPage = () => {
   const [projects, setProjects] = useState([])
-  console.log(projects)
 
   useEffect(() => {
     setProjects(Seeds)

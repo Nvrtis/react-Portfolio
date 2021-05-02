@@ -1,10 +1,18 @@
 export const Seeds = [
     {
+        id: 0,
+        title: 'Morning Cup of JavaScript',
+        link:"https://secure-wave-92624.herokuapp.com/",
+        repoLink:"https://github.com/Oliviapark113/morning_cup_of_javascript",
+        desc:"Morning Cup of JavaScript is a collaborative project with Olivia Park, Pete Scale, Geoffrey Zimmerman and me. Is a modern take for of the newspaper, where coding enthusiast can get the latest news, take som javascript coding challenges and get some inspiration to develop a new website.",
+        img:"https://github.com/Oliviapark113/morning_cup_of_javascript/blob/main/assets/morning-cup-of-javascript-img.png?raw=true"
+    },
+    {
         id: 1,
         title: 'WikiGames',
         link:"https://mokulling.github.io/wikigames/",
         repoLink:"https://mokulling.github.io/wikigames/",
-        desc:"Wikigames is a collaborative project with Zac Jayes, Mohammad Ali Karimi, Matt Kulling and me. Wikigames allows users to search from a wide range of games and receive back an image of the game, a brief description, and a YouTube playlist of gameplay so that users cna make an informed buying decision, or reminisce about their favorite retro games from the past. This website uses the RAWG games API for the game description and image, and the YouTube API for the YouTube modal and playlist.",
+        desc:"Wikigames is a collaborative project with Zac Jayes, Mohammad Ali Karimi, Matt Kulling and me. Wikigames allows users to search from a wide range of games and receive back an image of the game, a brief description, and a YouTube playlist of gameplay so that users can make an informed buying decision, or reminisce about their favorite retro games from the past. This website uses the RAWG games API for the game description and image, and the YouTube API for the YouTube modal and playlist.",
         img:"https://github.com/mokulling/wikigames/blob/main/screenshot.png?raw=true"
     },{
         id: 2,

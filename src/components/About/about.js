@@ -5,7 +5,7 @@ import Download from "../download/download"
 
 const About = ()=> (
     <div className="containerabout">
-    <h2 className="text-center">About me</h2>
+    <h2 className="text-center">Introduction</h2>
 <div className="about">
 <img src={img} alt="profile pic" className="img-fluid" id="profilePic"/>
         <p>
