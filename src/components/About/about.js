@@ -4,6 +4,7 @@ import img from "./img.jpg"
 import Download from "../download/download"
 
 const About = ()=> (
+  <>
     <div className="containerabout">
     <h2 className="text-center">Introduction</h2>
 <div className="about">
@@ -37,7 +38,29 @@ const About = ()=> (
         </p>
         <Download/>
 </div>
+
+<div className="skills about">
+  <h3>FRONT-END</h3>
+  <ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+    <li>React.js</li>
+    <li>JQuery</li>
+    <li>Bootstrap</li>
+  </ul>
+
+  <h3>BACK-END</h3>
+  <ul>
+    <li>Express.js</li>
+    <li>MongoDB</li>
+    <li>Node.js</li>
+    <li>MySQL.js</li>
+
+  </ul>
 </div>
+</div>
+</>
 )
 
 export default About

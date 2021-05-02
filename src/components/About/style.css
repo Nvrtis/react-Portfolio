@@ -6,11 +6,13 @@
     box-shadow: 2px 2px 4px #000000;
     margin: 20px 20px 80px 20px;
     font-size: 22px;
+    grid-row: none;
 }
 
 .containerabout {
-    height:100vh;
+    display: grid;
 }
+
 
 #profilePic {
     max-height: 225px;
@@ -29,3 +31,10 @@
 h2{
     text-shadow: 2px 2px 5px white;
 }
+
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }

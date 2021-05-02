@@ -4,7 +4,7 @@ export const Seeds = [
         title: 'Morning Cup of JavaScript',
         link:"https://secure-wave-92624.herokuapp.com/",
         repoLink:"https://github.com/Oliviapark113/morning_cup_of_javascript",
-        desc:"Morning Cup of JavaScript is a collaborative project with Olivia Park, Pete Scale, Geoffrey Zimmerman and me. Is a modern take for of the newspaper, where coding enthusiast can get the latest news, take som javascript coding challenges and get some inspiration to develop a new website.",
+        desc:"Morning Cup of JavaScript is a collaborative project with Olivia Park, Pete Scale, Geoffrey Zimmerman and me. Is a modern take for of the newspaper, where coding enthusiast can get the latest news, take some JavaScript coding challenges and get some inspiration for developing a new fun website.",
         img:"https://github.com/Oliviapark113/morning_cup_of_javascript/blob/main/assets/morning-cup-of-javascript-img.png?raw=true"
     },
     {
@@ -49,7 +49,15 @@ export const Seeds = [
         repoLink:"https://github.com/Nvrtis/employee-tracker",
         desc:"Developers are often tasked with creating interfaces that make it easy for non-developers to view and interact with information stored in databases. Often these interfaces are known as Content Management Systems.",
         img:"https://github.com/Nvrtis/employee-tracker/blob/main/public/img/main.png?raw=true"
+    },{
+        id: 7,
+        title: 'Google Books React',
+        link:"https://rocky-escarpment-73196.herokuapp.com/",
+        repoLink:"https://github.com/Nvrtis/google-books-react",
+        desc:"This project uses google book api to search for books relevent to the users search term. The user can either save their books in their own list or go to the google link for the book.",
+        img:"https://github.com/Nvrtis/google-books-react/raw/main/client/img/main.png"
     },
   ]
   
   export default Seeds
+
